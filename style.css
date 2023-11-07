@@ -3,6 +3,9 @@
     box-sizing: border-box;
     padding: 0;
 }
+html{
+    overflow-y: hidden;
+}
 
 @media screen and (max-width:480px) {
     header {
