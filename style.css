@@ -198,6 +198,10 @@
     #Zap:hover {
         transform: translate(5px, -5px);
     }
+
+    .ERROR{
+        display: none;
+    }
 }
 
 @media screen and (min-width:430px) {
