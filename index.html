@@ -14,30 +14,31 @@
             <h1>Meninos do Morro</h1>
             <nav>
                 <ul id="menuBar">
-                    <li class="lista1"><a href="#">Sobre</a></li>
-                    <li><a href="#">Noticias</a></li>
+                    <li class="lista1"><a href="#sobre">Sobre</a></li>
+                    <li><a href="#noticia1">Noticias</a></li>
                 </ul>
                 <ul>
-                    <li class="lista1"><a href="#">Jogadores</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li class="lista1"><a href="#timeatualizado">Jogadores</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="Sobre">
+    <section class="Sobre" id="sobre">
         <div class="container">
             <h2>Sobre Nosso Time</h2>
             <article>
                 <div>
-                    <img src="https://via.placeholder.com/150">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis cupiditate maiores
+                    <img id="img1" src="img/presidentes.jpg">
+                    <p class="color">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis cupiditate
+                        maiores
                         nesciunt,
                         blanditiis repellat dolor omnis, ea impedit veniam error rem ullam facilis deleniti ducimus,
                         nostrum
                         assumenda corrupti dolores odio. <a href="#">Ler mais</a></p>
                 </div>
                 <div id="imagemTime">
-                    <img src="https://via.placeholder.com/280x150">
+                    <img src="img/Time.jpg">
                 </div>
             </article>
     </section>
@@ -45,17 +46,18 @@
         <div class="container">
             <h2>Noticia Do Time</h2>
             <article>
-                <div id="imagemTime">
-                    <img src="https://via.placeholder.com/280x150">
+                <div id="noticia1">
+                    <img src="img/timeatt.jpg">
                 </div>
                 <div>
-
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis cupiditate maiores
                         nesciunt,
                         blanditiis repellat dolor omnis, ea impedit veniam error rem ullam facilis deleniti
                         ducimus,
                         nostrum
-                        assumenda corrupti dolores odio.</p><img src="https://via.placeholder.com/150">
+                        assumenda corrupti dolores odio.
+                    </p>
+                    <img id="jogador1" src="img/vitao.jpg">
                 </div>
             </article>
         </div>
@@ -65,48 +67,47 @@
         <div class="container">
             <h2>Jogadores</h2>
             <article>
-                <div id="imagemTime">
-                    <img src="https://via.placeholder.com/280x150">
+                <div id="timeatualizado">
+                    <img src="img/timeatt.jpg">
                 </div>
                 <div>
                     <ul class="TimeTodo">
                         <h3>Time</h3>
                         <li>
+                            Goleiro
+                            <ul>
+                                <p>Rodrigo</p>
+                                <p>Luciano</p>
+                                <p>Pedro Marques</p>
+                            </ul>
+                        </li>
+                        <li>
+                            fixo
+                            <ul>
+                                <p>Alan &copy;</>
+                                <p>Daniel (bispo)</p>
+                                <p>Cleison</p>
+                            </ul>
+                        </li>
+                        <li>
+                            Ala
+                            <ul>
+                                <p>Kaique (Cavalo)</p>
+                                <p>Renan</p>
+                                <p>Paulo (Draxler)</p>
+                                <p>Lucas Rodrigues</p>
+                                <p>Ricardo Beneficio</p>
+                                <p>Kauan KDS</p>
+                            </ul>
+                        </li>
 
-                            <p>Goleiro</p>
-                            <ul>
-                                <li>Rodrigo</li>
-                                <li>Luciano</li>
-                                <li>Pedro Marques</li>
-                            </ul>
-                        </li>
                         <li>
-                            <p>fixo</p>
+                            Pivo
                             <ul>
-                                <li>Alan &copy;</li>
-                                <li>Daniel (bispo)</li>
-                                <li>Cleison</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <p>Ala</p>
-                            <ul>
-                                <li>Kaique (Cavalo) </li>
-                                <li>Renan</li>
-                                <li>Paulo (Draxler)</li>
-                                <li>Lucas Rodrigues</li>
-                                <li>Ricardo Beneficio</li>
-                                <li>Kauan KDS</li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <p>Pivo</p>
-                            <ul>
-                                <li>Marcola</li>
-                                <li>Jhozan</li>
-                                <li>Vitão</li>
-                                <li>Suco</li>
+                                <p>Marcola</p>
+                                <p>Jhozan</p>
+                                <p>Vitão</p>
+                                <p>Suco</p>
                             </ul>
                         </li>
                     </ul>
@@ -136,6 +137,19 @@
                 </div>
             </article>
         </div>
+
+        <div class="container" id="contact">
+            <a href="tel:939516510">
+                <button id="Zap" type="submit">Maquer um jogo com a gente</button>
+            </a>
+        </div>
+
+
+        <footer>
+            <p>&copy; 2023 - Todos os direitos reservados</p>
+            <p>Entre em contato: <a href="mailto:luscasrq@gmail.com">luscasrq@gmail.com</a></p>
+        </footer>
+        <script src="main.js"></script>
 </body>
 
 </html>

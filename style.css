@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    
 }
 
 
@@ -9,7 +10,9 @@
 @media screen and (max-width:480px) {
     body {
         width: 414px;
+        background-color: #FFD600;
     }
+
 
     html {
         overflow-x: hidden;
@@ -19,19 +22,13 @@
         max-width: 100%;
         height: 91px;
         background-color: #000000;
+        transition: top 0.3s;
     }
 
     header h1 {
         font-size: 1.5em;
         margin: 16px 0;
         color: #FFD600;
-    }
-
-    .menu {
-        display: none;
-        max-width: 100%;
-        background-color: red;
-        height: 200px;
     }
 
     .container {
@@ -42,10 +39,8 @@
         align-items: center;
         text-align: center;
     }
-
     .MDM {
-        margin: 0 0 15px 
-        0;
+        margin: 0 0 15px 0;
         justify-content: space-between;
         display: flex;
         justify-content: space-between;
@@ -53,7 +48,12 @@
         align-items: center;
         padding-top: 12px;
     }
-
+.color{
+    color:#FFF;
+}
+section{
+    background-color:black;
+}
     .container nav ul {
         list-style: none;
         display: flex;
@@ -76,19 +76,22 @@
         display: block;
 
     }
-
+    li,h3,h2{
+        color: #fff
+    }
+    
     .Sobre>.container article>div {
         display: flex;
     }
 
     .Sobre .container>h2 {
-        color: black;
+        color: rgb(255, 255, 255);
         text-align: center;
         padding: 16px 0;
     }
 
     .Sobre>.container>article>div p {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         text-align: center;
         font-size: 0.9em;
         text-align: left;
@@ -96,8 +99,37 @@
         width: 147px;
     }
 
+    #img1 {
+        width: 150px;
+        height: 220px;
+    }
+
     #imagemTime {
         padding: 12px 0;
+    }
+
+    #jogador1 {
+        width: 150px;
+        height: 220px;
+    }
+
+    #noticia1 img {
+        margin-bottom: 15px;
+        width: 280px;
+        height: 380px;
+    }
+    
+    #timeatualizado img {
+        width: 100%;
+        height: 290px;
+        margin-bottom: 16px;
+    }
+
+
+    #imagemTime img {
+        width: 280px;
+        height: 180px;
+
     }
 
     .menuBar:hover li {
@@ -112,6 +144,51 @@
     }
 
     .TimeTodo {
-        border-right: 1px solid rgb(0, 0, 0);
+        border-right: 1px solid yellow;
+    }
+
+    .TimeTodo {
+        list-style: none;
+    }
+
+    .TimeTodo li {
+        margin: 15px 0;
+    }
+
+    .TimeTodo li>ul {
+        margin: px;
+    }
+
+    footer {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 40px;
+    }
+
+    footer>p {
+        color: #fff;
+    }
+
+    footer>p a {
+        text-decoration: dotted;
+        color: #fff;
+
+    }
+
+    #Zap {
+        font-size: 1rem;
+        padding: 0.3em 1em;
+        background-color: #000;
+        border: 3px solid yellow;
+        border-radius: 1em;
+        color: #fff;
+        font-weight: bolder;
+        transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+        box-shadow: -5px 5px 0px 0px yellow;
+        margin-bottom: 20px;
+    }
+
+    #Zap:hover {
+        transform: translate(5px, -5px);
     }
 }
