@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+@media screen and (max-width:480px) {
+    header {
+        max-width: 100%;
+        height: 91px;
+        background-color: #000000;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+        margin: 16px 0;
+        color: #FFD600;
+    }
+
+    .menu {
+        display: none;
+        max-width: 100%;
+        background-color: red;
+        height: 200px;
+    }
+
+    .container {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 280px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .MDM {
+        margin: 0 15px;
+        justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
+        width: 414px;
+        align-items: center;
+        padding-top: 12px;
+    }
+
+    .container nav ul {
+        list-style: none;
+        display: flex;
+        padding-right: 20px;
+    }
+
+    .lista1 {
+        padding-right: 10px;
+    }
+
+    .container nav li a {
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        font-size: 1.01em;
+        border-bottom: 1px solid #FFFF99;
+    }
+
+    .Sobre>.container {
+        display: block;
+
+    }
+
+    .Sobre>.container article>div {
+        display: flex;
+    }
+
+    .Sobre .container>h2 {
+        color: black;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .Sobre>.container>article>div p {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 0.9em;
+        text-align: left;
+        padding-left: 3px;
+        width: 147px;
+    }
+
+    #imagemTime {
+        padding: 12px 0;
+    }
+
+    .menuBar:hover li {
+        display: block;
+
+    }
+
+    #escalacao {
+        width: 133px;
+        height: 250px;
+
+    }
+
+    .TimeTodo {
+        border-right: 1px solid rgb(0, 0, 0);
+    }
+}
